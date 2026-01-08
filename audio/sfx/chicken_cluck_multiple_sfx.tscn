@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://c4s6fwcvw81kn"]
+
+[ext_resource type="AudioStream" uid="uid://dnp3xs3x42lju" path="res://assets/audio/sfx/456803_breviceps_chicken-clucking (online-audio-converter.com).ogg" id="1_vdj5c"]
+
+[sub_resource type="AudioStreamRandomizer" id="AudioStreamRandomizer_qp3e0"]
+streams_count = 1
+stream_0/stream = ExtResource("1_vdj5c")
+
+[node name="ChickenCluckMultipleSFX" type="AudioStreamPlayer2D"]
+stream = SubResource("AudioStreamRandomizer_qp3e0")
+volume_db = -17.752
+bus = &"SFX"
