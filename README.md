@@ -22,7 +22,7 @@ This project was developed as part of my learning journey. Special thanks to:
 How to Run
 1. Download this repository as a ZIP or clone it.
 2. Open **Godot Engine** (Version 4.x recommended).
-3. Click **Import** and select the `project.godot` file.
+3. Click **Import** and select the file.
 4. Press `F5` to play!
 
 Screenshots
